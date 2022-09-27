@@ -25,9 +25,9 @@
   color: rgb(218, 0, 0);
 }
 
-@media only screen and (max-width: 501px) {
+@media only screen and (max-width: 600px) {
   .container {
-    width: 450px;
+    width: 100%;
     margin: auto;
     padding: 0 10px;
     padding-bottom: 130px;
