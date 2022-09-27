@@ -25,4 +25,17 @@
   width: 100%;
 }
 
-.red{color:rgb(218, 0, 0)}
+.red {
+  color: rgb(218, 0, 0);
+}
+
+@media only screen and (max-width: 450px) {
+  .container {
+    width: 450px;
+    margin: auto;
+    padding: 0 10px;
+    padding-bottom: 130px;
+    background-color: rgb(247, 247, 247);
+    padding-top: 15px;
+  }
+}

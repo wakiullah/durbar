@@ -58,7 +58,7 @@ function Header() {
       <div className={classes.buttonWrapper}>
         <Link href='/adduser'>
           <button className={classes.button}>
-            <p>New User</p>{" "}
+            <p>New User</p>
             <PlusIcon
               className={classes.icon}
               onHover={HoverHandler}

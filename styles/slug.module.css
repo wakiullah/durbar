@@ -48,3 +48,18 @@
   margin-top: 17px;
   border-radius: 5px;
 }
+
+@media only screen and (max-width: 450px) {
+  .container {
+    width: 450px;
+    margin: auto;
+    padding: 0 10px;
+    font-size: 16px;
+  }
+  .heading {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+  }
+}

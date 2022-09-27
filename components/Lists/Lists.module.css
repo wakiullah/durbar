@@ -18,3 +18,12 @@
 .tableRow {
   cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+  .input {
+    width: 80%;
+    margin: auto;
+    padding: 5px 11px;
+    background-color: #fff;
+  }
+}

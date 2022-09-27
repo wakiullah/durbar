@@ -5,11 +5,10 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import { useState } from "react";
 
-
 function SmallExample({ users }) {
   const router = useRouter();
   const [numberTerm, setNumberTerm] = useState("");
- 
+  const [codeTerm, setCodeTerm] = useState("");
 
   return (
     <section class="section">
@@ -31,8 +30,6 @@ function SmallExample({ users }) {
                   <th>Name</th>
                   <th>Phone</th>
                   <th>Address</th>
-                  <th>Gas Name</th>
-                 
                 </tr>
               </thead>
               <tbody>
@@ -64,8 +61,6 @@ function SmallExample({ users }) {
                       <td data-label="name">{user.name}</td>
                       <td data-label="phone">{user.phone}</td>
                       <td data-label="address">{user.address}</td>
-                      <td data-label="gas name">{user.gasName}</td>
-                     
                     </tr>
                   ))}
               </tbody>

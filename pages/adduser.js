@@ -19,16 +19,6 @@ function AddUser() {
     getUsers();
   }, []);
 
-//   users.map((user) => {
-//     // console.log(Number(user.code) > 0);
-//     if (Number(user.code) > lastUserCode) {
-//       console.log(Number(user.code));
-//       setLastUserCode("hello");
-//       console.log(lastUserCode + "last");
-//     }
-//   });
-// console.log(name);
-
   return <AddUserForm users={users}/>;
 }
 
