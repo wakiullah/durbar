@@ -1,0 +1,28 @@
+.container {
+  width: 800px;
+  margin: auto;
+  padding-bottom: 130px;
+}
+
+.title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.main {
+  background-color: rgb(247, 247, 247);
+  padding-top: 15px;
+}
+
+.width {
+  width: 40%;
+}
+.width1 {
+  width: 20%;
+}
+.button {
+  width: 100%;
+}
+
+.red{color:rgb(218, 0, 0)}

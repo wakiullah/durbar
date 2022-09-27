@@ -1,0 +1,47 @@
+.header {
+  background-color: #0071bc;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+}
+.logo {
+  max-width: 500px;
+}
+
+.logoWrapper {
+
+}
+.buttonWrapper {
+  display: flex;
+}
+
+.button {
+  padding: 2px 30px;
+  border: 2px solid #fff;
+  background-color: #0071bc;
+  color: white;
+  border-radius: 12px;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+}
+.button:hover {
+  background-color: #1b8fdd;
+  color: #fff;
+}
+.button p {
+  margin: 0;
+  margin-top: 14px;
+}
+.icon {
+  width: 17px;
+  color: white;
+  margin-left: 10px;
+}
+
+.container {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
