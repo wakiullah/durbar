@@ -54,7 +54,6 @@ function Header() {
         <div className={classes.logoWrapper}>
           <Image width={500} height={50} className={classes.logo} src={Logo} alt="Durbar Logo" />
         </div>
-     
       <div className={classes.buttonWrapper}>
         <Link href='/adduser'>
           <button className={classes.button}>
