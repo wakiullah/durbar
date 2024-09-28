@@ -12,6 +12,7 @@ function AddUser() {
   useEffect(() => {
     const getUsers = async () => {
       const usersFromServer = await getDocs(userCollectionRef);
+
       setUsers(
         usersFromServer.docs.map((doc) => ({ ...doc.data(), id: doc.id }))
       );
