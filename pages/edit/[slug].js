@@ -85,7 +85,7 @@ function AddUserForm({ users }) {
                 ref={codeRef}
                 type="number"
                 placeholder="Code No."
-                defaultValue={userDetails.code}
+        defaultValue={userDetails.code}
               />
             </div>
           </div>
@@ -96,8 +96,7 @@ function AddUserForm({ users }) {
                 className="input"
                 ref={nameRef}
                 type="text"
-                placeholder="Name"
-                defaultValue={userDetails.name}
+                placeholder="Name"            defaultValue={userDetails.name}
               />
             </div>
           </div>
