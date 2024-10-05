@@ -47,6 +47,7 @@ function Header() {
   const HoverHandler = () => {
     iconColor = "#0071BC";
   };
+
   return (
     <header className={classes.header}>
       
@@ -54,6 +55,7 @@ function Header() {
         <div className={classes.logoWrapper}>
           <Image width={500} height={50} className={classes.logo} src={Logo} alt="Durbar Logo" />
         </div>
+
       <div className={classes.buttonWrapper}>
         <Link href='/adduser'>
           <button className={classes.button}>
@@ -65,7 +67,8 @@ function Header() {
             />
           </button>
         </Link>
-      </div> </div>
+      </div> 
+</div>
     </header>
   );
 }
