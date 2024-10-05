@@ -11,6 +11,7 @@ function SmallExample({ users }) {
   const [codeTerm, setCodeTerm] = useState("");
 
   return (
+
     <section class="section">
       <div class="container">
         <div className={classes.inputWrapper}>
@@ -56,6 +57,7 @@ function SmallExample({ users }) {
                       onClick={() => {
                         router.push(`/${user.id}`);
                       }}
+
                     >
                       <td data-label="code no">{user.code}</td>
                       <td data-label="name">{user.name}</td>
